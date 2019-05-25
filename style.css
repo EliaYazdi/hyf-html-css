@@ -1,47 +1,31 @@
 body {
     background-color: bisque;
+    max-width: 1000px;
 }
-
+main {
+  width: 100%;
+}
 h1 {
+    width: 100%;
     font-size: 50px;
     background-color: gray;
     text-align: center;
+    float: top;
 
 }
 h2 {
-    text-align: center;
+    width:100%;
+    text-align: left;
 }
-p {
-    text-align: center;
-    font-size: 200px;
-    color: black;
-    margin-top: 25px;
+ul {
+  border-bottom: 2px;
+  width: 30%;
+  border-style: solid;
+  border-color: black;
+  
+}
+li  {
+  font-size: 20px;
+  padding: 6px;
 }
 
-.sidenav {
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-    
-  }
-  
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .sidenav a:hover {
-    color: bisque;
-    border-bottom: #818181;
-  }
