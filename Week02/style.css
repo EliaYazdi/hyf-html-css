@@ -16,10 +16,10 @@ h3 {
 .grid-item {
     background-color: rgb(221, 125, 7);
     border: 10px solid black;
+    float : left;
 }
 p {
     text-align: center;
-    background-color: #474747
 }
 #grid-floats {
     border: 10px solid #474747;
@@ -29,52 +29,52 @@ p {
     background-color: teal;
 }
 #grid-floats p {
-    border: 2px solid black;
+    width : 200px;
+    height: 60px;
+    text-align: center;
 }
 #grid-floats li {
-    width: 20%;
-    height: auto;
+    width: 250px;
+    height: 450px;
     margin: 1%;
     padding: 8px;
     display: inline-block;
     float: left;
-}
-#grid-floats :first-child {
-    width: 30%;
-}
-li: :nth-child(1) {
-    width: 45%;
+
 }
 #grid-floats img {
-    width: 70%;
-    height: auto;
-    margin: 2rem;
-    float: left;
+    width: 200px;
+    height:150px;
+    margin: 1%;
     border: 5px solid black;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     #grid-flex li {
     width: 40%;
+    overflow: scroll;
+    float: left;
     }
-    #grid-flex :first-child {
+    .grid-item:nth-child(1) {
     width: 90%;
     }
 }
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 800px) and (min-width: 400px) {
     #grid-flex li {
         width: 30%;
+        overflow: scroll;
     }
-    #grid-flex :first-child {
-        width: 45%;
+    .grid-item:nth-child(1) {
+        width: 40%;
     }
 }
-@media screen and (max-width: 800px) and (min-width: 1224px) {
+@media screen and (min-width: 800px) and (max-width: 1224px) {
     #grid-flex li {
         width: 20%;
     }
-    #grid-flex :first-child {
+    .grid-item:nth-child(1) {
         width: 30%;
     }
+    **************************************************************
 }
 #grid-flex {
     display: flex;
