@@ -1,0 +1,20 @@
+body {
+  background-color: pink;
+}
+h1 {
+  text-align: center;
+  background-color: aliceblue;
+}
+h4 {
+  text-align: center;
+  
+}
+hr {
+  color: pink;
+  display: block;
+  height: 6px;
+  margin: 1px;
+  padding: 1x;
+  border: 10px solid pink;
+  border-radius: 5px;
+}

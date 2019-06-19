@@ -54,7 +54,7 @@ p {
     overflow: scroll;
     float: left;
     }
-    .grid-item:nth-child(1) {
+    .grid-item:nth-child(1n) {
     width: 90%;
     }
 }
@@ -63,7 +63,7 @@ p {
         width: 30%;
         overflow: scroll;
     }
-    .grid-item:nth-child(1) {
+    .grid-item:nth-child(1n) {
         width: 40%;
     }
 }
@@ -71,7 +71,7 @@ p {
     #grid-flex li {
         width: 20%;
     }
-    .grid-item:nth-child(1) {
+    .grid-item:nth-child(1n) {
         width: 30%;
     }
     **************************************************************
